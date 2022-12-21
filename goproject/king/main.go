@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	king "king/dinesh"
+	king "king/Queen"
 )
 
 func main() {
@@ -16,5 +16,6 @@ func main() {
 	fmt.Println(king.Sub(a, b))
 	fmt.Println(king.Mul(a, b))
 	fmt.Println(king.Div(a, b))
+	fmt.Println(king.Divmod(a, b))
 
 }

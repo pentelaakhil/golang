@@ -12,7 +12,6 @@ func Mul(a int, b int) int {
 func Div(a int, b int) int {
 	return a / b
 }
-
-//	divideanswer := num1 / num2
-//	addanswer := num1 + num2
-//	mulanswer := num1 * num2
+func Divmod(a int, b int) int {
+	return a % b
+}
